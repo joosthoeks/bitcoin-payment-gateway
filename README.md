@@ -1,6 +1,12 @@
 # bitcoin-payment-gateway
 Self-hosted full-node Bitcoin payment gateway REST API server.
 
+## Requirements
+* [BitcoinCore](https://bitcoincore.org/)
+* [python-bitcoinrpc](https://github.com/jgarzik/python-bitcoinrpc)
+* [Apache2](https://httpd.apache.org/)
+* [Flask-RESTful](https://github.com/flask-restful/flask-restful)
+
 ## GET all payments
 ```
 $ curl -X GET -v http://test/payments/v1/payment
